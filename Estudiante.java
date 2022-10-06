@@ -2,13 +2,14 @@
 /**
  *  Descripción de un estudiante
  * 
- * @author - Montse 
+ * @author - Crismeiry  
  *  
  */
 public class Estudiante
 {
     private String nombre;
     private int nota;
+    private String email;
      
 
     /**
