@@ -9,8 +9,6 @@ public class Estudiante
 {
     private String nombre;
     private int nota;
-     
-
     /**
      * Constructor  
      */
@@ -25,7 +23,6 @@ public class Estudiante
      */
     public String getNombre() {
         return nombre;
-         
     }
     
     
@@ -34,7 +31,6 @@ public class Estudiante
      */
     public int getNota() {
         return nota;
-         
     }
     
     /**
@@ -43,7 +39,5 @@ public class Estudiante
     public void printEstudiante() {
         System.out.println("Nombre: " + nombre +
                 "\nNota: " + nota);
-
     }
-
 }
